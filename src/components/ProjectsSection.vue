@@ -10,7 +10,7 @@ const passionProjects = [
     technologies: ['JavaScript', 'Canvas'],
     projectUrl: 'https://3djs.netlify.app/',
     githubUrl: 'https://github.com/noahsiegrist/3djs',
-    imageUrl: '/src/assets/3djs.png'
+    imageUrl: '/images/3djs.png'
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const passionProjects = [
     technologies: ['Vue.js', 'JavaScript', 'Pathfinding Algorithms', 'CSS Grid'],
     projectUrl: 'https://labyrinth-solver.netlify.app/',
     githubUrl: 'https://github.com/noahsiegrist/labyrinth',
-    imageUrl: '/src/assets/labirinth.png'
+    imageUrl: '/images/labirinth.png'
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const passionProjects = [
     technologies: ['JavaScript', 'HTML', 'CSS', 'Animations'],
     projectUrl: 'https://christmas-texts.netlify.app/',
     githubUrl: 'https://github.com/noahsiegrist/chistmas-text',
-    imageUrl: '/src/assets/christmas.png'
+    imageUrl: '/images/christmas.png'
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const passionProjects = [
     technologies: ['Vue.js', 'Game Development',],
     projectUrl: 'https://peg-solitair.netlify.app/',
     githubUrl: 'https://github.com/noahsiegrist/peg-solitaire',
-    imageUrl: '/src/assets/peg-solitair.png'
+    imageUrl: '/images/peg-solitair.png'
   }
 ]
 
@@ -57,7 +57,7 @@ const businessProjects = [
     description: 'E-commerce platform for Wander AG, a Swiss food and beverage company. Features product catalog, shopping cart, and secure checkout.',
     technologies: ['E-commerce', 'Drupal', 'Twig', 'Payment Integration'],
     projectUrl: 'https://shop.wander.ch',
-    imageUrl: 'src/assets/wander.png'
+    imageUrl: '/images/wander.png'
   },
   {
     id: 3,
