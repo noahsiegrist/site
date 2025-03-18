@@ -48,7 +48,7 @@
   font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #73A965, #4D8A3F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -73,7 +73,7 @@
   left: 0;
   width: 60px;
   height: 4px;
-  background: linear-gradient(90deg, #6e8efb, #a777e3);
+  background: linear-gradient(90deg, #73A965, #4D8A3F);
   border-radius: 2px;
 }
 
@@ -101,25 +101,25 @@
 }
 
 .cta-button.primary {
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #73A965, #4D8A3F);
   color: white;
-  box-shadow: 0 4px 15px rgba(110, 142, 251, 0.4);
+  box-shadow: 0 4px 15px rgba(115, 169, 101, 0.4);
 }
 
 .cta-button.primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(110, 142, 251, 0.6);
+  box-shadow: 0 8px 20px rgba(115, 169, 101, 0.6);
 }
 
 .cta-button.secondary {
   background: transparent;
   color: var(--color-heading);
-  border: 2px solid rgba(110, 142, 251, 0.5);
+  border: 2px solid rgba(115, 169, 101, 0.5);
 }
 
 .cta-button.secondary:hover {
-  background: rgba(110, 142, 251, 0.1);
-  border-color: rgba(110, 142, 251, 0.8);
+  background: rgba(115, 169, 101, 0.1);
+  border-color: rgba(115, 169, 101, 0.8);
 }
 
 .hero-visual {
@@ -141,7 +141,7 @@
 .shape-1 {
   width: 400px;
   height: 400px;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #73A965, #4D8A3F);
   top: -100px;
   right: -100px;
 }
@@ -149,7 +149,7 @@
 .shape-2 {
   width: 300px;
   height: 300px;
-  background: linear-gradient(135deg, #a777e3, #6e8efb);
+  background: linear-gradient(135deg, #4D8A3F, #73A965);
   bottom: -50px;
   right: 30%;
 }
@@ -157,7 +157,7 @@
 .shape-3 {
   width: 200px;
   height: 200px;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #73A965, #4D8A3F);
   top: 20%;
   left: 10%;
 }
@@ -165,7 +165,7 @@
 .shape-4 {
   width: 150px;
   height: 150px;
-  background: linear-gradient(135deg, #a777e3, #6e8efb);
+  background: linear-gradient(135deg, #4D8A3F, #73A965);
   bottom: 15%;
   left: 20%;
 }

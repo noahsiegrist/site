@@ -127,7 +127,7 @@ const hover = ref(false)
 }
 
 .project-card:hover .iframe-container {
-  box-shadow: inset 0 0 0 2px rgba(110, 142, 251, 0.3);
+  box-shadow: inset 0 0 0 2px rgba(115, 169, 101, 0.3);
 }
 
 .project-card:hover .project-iframe {
@@ -182,8 +182,8 @@ h3 {
 }
 
 .tech-tag {
-  background: rgba(125, 125, 255, 0.15);
-  color: #7d7dff;
+  background: rgba(115, 169, 101, 0.15);
+  color: #5A8C4C;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -208,19 +208,19 @@ h3 {
 }
 
 .project-link.primary {
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #73A965, #4D8A3F);
   color: white;
 }
 
 .project-link.primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  background: linear-gradient(135deg, #5d7df9, #9566e0);
+  background: linear-gradient(135deg, #67994A, #3D7A2F);
 }
 
 .project-link.github {
   background: transparent;
-  border: 1px solid rgba(110, 142, 251, 0.5);
+  border: 1px solid rgba(115, 169, 101, 0.5);
   color: var(--color-heading);
   display: inline-flex;
   align-items: center;
@@ -230,8 +230,8 @@ h3 {
 .project-link.github:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background: rgba(110, 142, 251, 0.1);
-  border-color: rgba(110, 142, 251, 0.8);
+  background: rgba(115, 169, 101, 0.1);
+  border-color: rgba(115, 169, 101, 0.8);
 }
 
 .github-icon {

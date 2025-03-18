@@ -2,7 +2,6 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const isScrolled = ref(false)
-const isMobileMenuOpen = ref(false)
 
 const checkScroll = () => {
   isScrolled.value = window.scrollY > 50
@@ -16,33 +15,19 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('scroll', checkScroll)
 })
-
-const toggleMobileMenu = () => {
-  isMobileMenuOpen.value = !isMobileMenuOpen.value
-}
-
-const closeMobileMenu = () => {
-  isMobileMenuOpen.value = false
-}
 </script>
 
 <template>
-  <nav class="navbar" :class="{ 'scrolled': isScrolled, 'mobile-open': isMobileMenuOpen }">
+  <nav class="navbar" :class="{ 'scrolled': isScrolled }">
     <div class="navbar-container">
       <div class="navbar-logo">
         <a href="#" class="logo-link">NS</a>
       </div>
       
-      <button class="mobile-menu-toggle" @click="toggleMobileMenu" aria-label="Toggle menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-      
-      <div class="navbar-links" :class="{ 'active': isMobileMenuOpen }">
-        <a href="#" class="nav-link" @click="closeMobileMenu">Home</a>
-        <a href="#projects" class="nav-link" @click="closeMobileMenu">Projects</a>
-        <a href="#contact" class="nav-link" @click="closeMobileMenu">Contact</a>
+      <div class="navbar-links">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
       </div>
     </div>
   </nav>
@@ -79,7 +64,7 @@ const closeMobileMenu = () => {
 }
 
 .logo-link {
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #73A965, #4D8A3F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -107,7 +92,7 @@ const closeMobileMenu = () => {
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, #6e8efb, #a777e3);
+  background: linear-gradient(90deg, #73A965, #4D8A3F);
   transition: width 0.3s ease;
 }
 
@@ -115,59 +100,40 @@ const closeMobileMenu = () => {
   width: 100%;
 }
 
-.mobile-menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem;
-  z-index: 1001;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  transition: all 0.3s ease;
-  background-color: var(--color-heading);
-  border-radius: 1px;
-}
-
 @media (max-width: 768px) {
-  .mobile-menu-toggle {
-    display: block;
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .navbar-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .navbar-logo {
+    margin-bottom: 0.5rem;
+    width: 100%;
+    text-align: center;
   }
   
   .navbar-links {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 70%;
-    height: 100vh;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background: var(--color-background);
-    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
-    transition: right 0.3s ease;
-    gap: 3rem;
+    gap: 1.5rem;
   }
   
-  .navbar-links.active {
-    right: 0;
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.3rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-links {
+    gap: 1rem;
   }
   
-  .mobile-open .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  
-  .mobile-open .bar:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .mobile-open .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+  .nav-link {
+    font-size: 0.9rem;
   }
 }
 </style>

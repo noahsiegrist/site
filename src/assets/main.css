@@ -27,12 +27,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #6e8efb, #a777e3);
+  background: linear-gradient(to bottom, #73A965, #4D8A3F);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #5d7df9, #9566e0);
+  background: linear-gradient(to bottom, #67994A, #3D7A2F);
 }
 
 /* Animation classes */
@@ -53,6 +53,6 @@ html {
 
 /* Selection color */
 ::selection {
-  background: rgba(110, 142, 251, 0.3);
+  background: rgba(115, 169, 101, 0.3);
   color: var(--color-heading);
 }

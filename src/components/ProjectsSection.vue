@@ -138,7 +138,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #73A965, #4D8A3F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -174,7 +174,7 @@ h2 {
   left: 0;
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #6e8efb, #a777e3);
+  background: linear-gradient(90deg, #73A965, #4D8A3F);
   border-radius: 2px;
 }
 

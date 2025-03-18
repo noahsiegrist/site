@@ -71,7 +71,7 @@
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #73A965, #4D8A3F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -115,9 +115,9 @@
   justify-content: center;
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, rgba(110, 142, 251, 0.2), rgba(167, 119, 227, 0.2));
+  background: linear-gradient(135deg, rgba(115, 169, 101, 0.2), rgba(77, 138, 63, 0.2));
   border-radius: 50%;
-  color: #6e8efb;
+  color: #73A965;
 }
 
 .contact-details h3 {
@@ -134,7 +134,7 @@
 }
 
 .contact-details a:hover {
-  color: #6e8efb;
+  color: #73A965;
 }
 
 .footer-bottom {

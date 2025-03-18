@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favicon Generator</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    .favicon-container {
+      width: 64px;
+      height: 64px;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    svg {
+      width: 64px;
+      height: 64px;
+    }
+  </style>
+</head>
+<body>
+  <div class="favicon-container">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+      <defs>
+        <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#73A965" />
+          <stop offset="100%" stop-color="#4D8A3F" />
+        </linearGradient>
+      </defs>
+      <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" dominant-baseline="central" fill="url(#greenGradient)">NS</text>
+    </svg>
+  </div>
+  <script>
+    // This page is meant to be opened in a browser and then you can save the SVG as a favicon
+    console.log("Open this page in a browser, take a screenshot of the SVG, and save it as favicon.ico");
+  </script>
+</body>
+</html>
