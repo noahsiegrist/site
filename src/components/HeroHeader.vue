@@ -1,7 +1,3 @@
-<script setup>
-// You can add any necessary imports or logic here
-</script>
-
 <template>
   <header class="hero-header">
     <!-- Oh, hi there! Looking at source code? You must not be from HR. ;) If you have an interesting Job, get in contact anyway! -->
