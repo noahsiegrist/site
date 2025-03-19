@@ -26,7 +26,7 @@ const passionProjects = [
     title: 'Christmas Text Generator',
     description: 'A festive application created as a gift to share best wishes for the Christmas season. Generates personalized holiday messages.',
     technologies: ['JavaScript', 'HTML', 'CSS', 'Animations'],
-    projectUrl: 'https://christmas-texts.netlify.app/',
+    projectUrl: 'https://christmas-texts.netlify.app/?string=Noah%20Siegrist',
     githubUrl: 'https://github.com/noahsiegrist/chistmas-text',
     imageUrl: '/images/christmas.png'
   },
