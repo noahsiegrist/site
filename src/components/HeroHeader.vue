@@ -4,14 +4,14 @@
 
 <template>
   <header class="hero-header">
+    <!-- Oh, hi there! Looking at source code? You must not be from HR. ;) If you have an interesting Job, get in contact anyway! -->
     <div class="hero-content">
       <h1 class="name">Noah Siegrist</h1>
       <div class="title-container">
-        <h2 class="title">Software Developer & Designer</h2>
+        <h2 class="title">Software Engineer</h2>
       </div>
       <p class="bio">
-        I build elegant, responsive, and user-friendly applications with modern technologies.
-        My passion lies in creating solutions that make a difference.
+        Just having fun over here. 
       </p>
       <div class="cta-buttons">
         <a href="#projects" class="cta-button primary">View Projects</a>

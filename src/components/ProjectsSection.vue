@@ -55,7 +55,7 @@ const businessProjects = [
     id: 2,
     title: 'Wander Shop (shop.wander.ch)',
     description: 'E-commerce platform for Wander AG, a Swiss food and beverage company. Features product catalog, shopping cart, and secure checkout.',
-    technologies: ['E-commerce', 'Drupal', 'Twig', 'Payment Integration'],
+    technologies: ['E-commerce', 'Drupal', 'Twig'],
     projectUrl: 'https://shop.wander.ch',
     imageUrl: '/images/wander.png'
   },
@@ -83,7 +83,7 @@ const businessProjects = [
     <div class="project-category">
       <h3 class="category-title">Passion Projects</h3>
       <p class="category-description">
-        Personal projects I've built to explore new technologies and concepts.
+        Personal projects I've built to explore concepts and have fun.
       </p>
       
       <div class="passion-projects-grid">
